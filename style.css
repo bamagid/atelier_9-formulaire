@@ -39,7 +39,7 @@ form .corps-formulaire  i {
   align-items: center;
 }
 .nom input {
-  border: 1px solid #f3f3f3;
+  border: 1px solid rgb(204, 204, 204);;
   outline: none;
   padding: 10px;
   margin: 10px 0;
@@ -47,7 +47,7 @@ form .corps-formulaire  i {
   width: 100%;
 }
 .gmail input {
-  border: 1px solid #f3f3f3;
+  border: 1px solid rgb(204, 204, 204);;
   outline: none;
   padding: 10px;
   margin: 10px 0;
@@ -55,7 +55,7 @@ form .corps-formulaire  i {
   width: 100%;
 }
 .message input {
-  border: 1px solid #f3f3f3;
+  border: 1px solid rgb(204, 204, 204);;
   outline: none;
   padding: 40px 10px;
   margin: 10px 0;
@@ -63,9 +63,9 @@ form .corps-formulaire  i {
   width: 100%;
 }
 form .pied-formulaire button {
-  background-color: rgba(53, 53, 227, 0.364);
+  background-color: rgba(53, 53, 227, 0.672);
   color: white;
-  border: 1px solid #f3f3f3;
+  border: 1px solid rgb(204, 204, 204);;
   outline: none;
   padding: 10px;
   margin: 10px 0 10px 0;
