@@ -3,7 +3,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #fef1df;
+  background-color: #f0f2f5;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -13,17 +13,22 @@ body {
 }
 
 form {
-  padding: 30px;
+  padding: 35px;
   background-color: white;
   border-radius: 10px;
+  width: 350px;
+  min-height: 400px;
 }
 form h1 {
   font-size: 20px;
+  margin-bottom: 30px;
+
 }
 form hr {
   width: 100%;
   height: 1px;
-  background-color: #747cdf;
+  margin-bottom: 30px;
+  background-color: #b0b2c7;
 }
 form .corps-formulaire  i {
   position: absolute; /* positionné par rapport à son parent le plus proche positionné */
@@ -31,13 +36,43 @@ form .corps-formulaire  i {
   top: 25px;
   padding: 9px 8px;
   color: #747cdf;
+  align-items: center;
+}
+.nom input {
+  border: 1px solid #f3f3f3;
+  outline: none;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  width: 100%;
+}
+.gmail input {
+  border: 1px solid #f3f3f3;
+  outline: none;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  width: 100%;
+}
+.message input {
+  border: 1px solid #f3f3f3;
+  outline: none;
+  padding: 40px 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  width: 100%;
+}
+form .pied-formulaire button {
+  background-color: rgba(53, 53, 227, 0.364);
+  color: white;
+  border: 1px solid #f3f3f3;
+  outline: none;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
 }
 form .pied-formulaire button:hover {
   transform: scale(1.05);
-}
-
-@media screen and (max-width: 920px) {
-  form .corps-formulaire .droite {
-    margin-left: 0px;
-  }
 }
